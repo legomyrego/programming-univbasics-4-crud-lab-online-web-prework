@@ -4,17 +4,17 @@ def create_an_empty_array
 end
 
 def create_an_array
-newarr = ["one", 'two', 'three']
+newarr = ["one", 'two', 'three', 'four']
 return newarr
 end
 
 def add_element_to_end_of_array(array, element)
-array.push('element')
+array.push(element)
 
 end
 
 def add_element_to_start_of_array(array, element)
-array.unshift('element')
+array.unshift(element)
 
 
 end
